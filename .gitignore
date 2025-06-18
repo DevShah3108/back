@@ -1,0 +1,34 @@
+# Environment variables
+.env
+
+# Node modules
+node_modules/
+
+# Log files
+*.log
+logs/
+
+# Operating system files
+.DS_Store
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# Dependency directory
+jspm_packages/
+
+# Build artifacts
+dist/
+build/
+
+# Test artifacts
+coverage/
+
+# Package lock
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.tmp
+*~ 
