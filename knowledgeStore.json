@@ -1,0 +1,1079 @@
+{
+  "generatedInsights": [
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+      "response": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking.",
+      "entities": {
+        "projects": [
+          "Smart Door Lock System"
+        ],
+        "skills": [
+          "Python",
+          "Raspberry Pi",
+          "OpenCV",
+          "IoT Sensors"
+        ]
+      }
+    },
+    {
+      "type": "project-skill",
+      "question": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+      "response": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management.",
+      "entities": {
+        "projects": [
+          "Library Management System"
+        ],
+        "skills": [
+          "React.js",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "type": "experience-skill",
+      "question": "What skills did Dev use at Sparks to Ideas?",
+      "response": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects.",
+      "entities": {
+        "companies": [
+          "Sparks to Ideas"
+        ],
+        "skills": [
+          "C",
+          "AI/ML",
+          "Python"
+        ]
+      }
+    },
+    {
+      "type": "education-skill",
+      "question": "How did Dev's education prepare him for technical work?",
+      "response": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience.",
+      "entities": {
+        "education": [
+          "B.E. in Information Technology"
+        ],
+        "skills": [
+          "C",
+          "Java",
+          "Python",
+          "AI/ML",
+          "IoT"
+        ]
+      }
+    }
+  ],
+  "learnedFacts": {},
+  "unansweredQuestions": [
+    {
+      "question": "yes",
+      "sessionId": "default",
+      "timestamp": "2025-06-27T15:55:42.949Z"
+    },
+    {
+      "question": "ok",
+      "sessionId": "default",
+      "timestamp": "2025-06-27T15:55:59.637Z"
+    },
+    {
+      "question": "jbj",
+      "sessionId": "default",
+      "timestamp": "2025-06-30T22:17:36.595Z"
+    }
+  ],
+  "conceptGraph": {
+    "Python": [
+      "Smart Door Lock System",
+      "Sparks to Ideas"
+    ],
+    "Raspberry Pi": [
+      "Smart Door Lock System"
+    ],
+    "OpenCV": [
+      "Smart Door Lock System"
+    ],
+    "IoT Sensors": [
+      "Smart Door Lock System"
+    ],
+    "React.js": [
+      "Library Management System"
+    ],
+    "Node.js": [
+      "Library Management System"
+    ],
+    "Express": [
+      "Library Management System"
+    ],
+    "MongoDB": [
+      "Library Management System"
+    ],
+    "C": [
+      "Sparks to Ideas"
+    ],
+    "AI/ML": [
+      "Sparks to Ideas"
+    ]
+  }
+}

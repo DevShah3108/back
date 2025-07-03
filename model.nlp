@@ -1,0 +1,2818 @@
+{
+  "settings": {
+    "languages": [
+      "en"
+    ],
+    "nlu": {
+      "log": false
+    },
+    "autoSave": false,
+    "modelFileName": "model.nlp",
+    "tag": "nlp",
+    "threshold": 0.5,
+    "autoLoad": true,
+    "executeActionsBeforeAnswers": false,
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager",
+      "log": false
+    },
+    "locales": [
+      "en"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "en": {
+        "settings": {
+          "locale": "en",
+          "trainByDomain": false,
+          "tag": "domain-manager-en",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "hello": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "hi,there": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "good,morn": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "hey": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "greet": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "is,up,what": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "is,name,what,your": {
+            "intent": "bot.name",
+            "domain": "default"
+          },
+          "are,who,you": {
+            "intent": "bot.name",
+            "domain": "default"
+          },
+          "identifi,yourself": {
+            "intent": "bot.name",
+            "domain": "default"
+          },
+          "a,are,human,you": {
+            "intent": "bot.name",
+            "domain": "default"
+          },
+          "me,more,tell": {
+            "intent": "generate.more",
+            "domain": "default"
+          },
+          "els,what": {
+            "intent": "generate.more",
+            "domain": "default"
+          },
+          "continu": {
+            "intent": "generate.more",
+            "domain": "default"
+          },
+          "go,on": {
+            "intent": "generate.more",
+            "domain": "default"
+          },
+          "elabor": {
+            "intent": "generate.more",
+            "domain": "default"
+          },
+          "a,about,me,project,tell": {
+            "intent": "project.detail",
+            "domain": "default"
+          },
+          "done,have,project,what,you": {
+            "intent": "project.list",
+            "domain": "default"
+          },
+          "explain,skill,your": {
+            "intent": "skill.detail",
+            "domain": "default"
+          },
+          "describ,experi,your": {
+            "intent": "experience.detail",
+            "domain": "default"
+          },
+          "background,educ": {
+            "intent": "education.detail",
+            "domain": "default"
+          },
+          "can,do,what,you": {
+            "intent": "qna.what_can_you_do",
+            "domain": "default"
+          },
+          "project": {
+            "intent": "qna.projects",
+            "domain": "default"
+          },
+          "skill": {
+            "intent": "qna.skills",
+            "domain": "default"
+          },
+          "experi": {
+            "intent": "qna.experience",
+            "domain": "default"
+          },
+          "educ": {
+            "intent": "qna.education",
+            "domain": "default"
+          },
+          "did,door,how,iot,lock,opencv,pi,python,raspberri,sensor,smart,system,use": {
+            "intent": "insight.project-skill",
+            "domain": "default"
+          },
+          "did,express,how,js,librari,manag,mongodb,node,react,system,use": {
+            "intent": "insight.project-skill",
+            "domain": "default"
+          },
+          "at,dev,did,idea,skill,spark,to,use,what": {
+            "intent": "insight.experience-skill",
+            "domain": "default"
+          },
+          "dev,did,educ,for,him,how,is,prepar,technic,work": {
+            "intent": "insight.education-skill",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "greeting": "default",
+          "bot.name": "default",
+          "generate.more": "default",
+          "project.detail": "default",
+          "project.list": "default",
+          "skill.detail": "default",
+          "experience.detail": "default",
+          "education.detail": "default",
+          "qna.what_can_you_do": "default",
+          "qna.projects": "default",
+          "qna.skills": "default",
+          "qna.experience": "default",
+          "qna.education": "default",
+          "insight.project-skill": "default",
+          "insight.experience-skill": "default",
+          "insight.education-skill": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "hello",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "hi there",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "good morning",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "greetings",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "what's up",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "what is your name",
+            "intent": "bot.name"
+          },
+          {
+            "domain": "default",
+            "utterance": "who are you",
+            "intent": "bot.name"
+          },
+          {
+            "domain": "default",
+            "utterance": "identify yourself",
+            "intent": "bot.name"
+          },
+          {
+            "domain": "default",
+            "utterance": "are you a human",
+            "intent": "bot.name"
+          },
+          {
+            "domain": "default",
+            "utterance": "tell me more",
+            "intent": "generate.more"
+          },
+          {
+            "domain": "default",
+            "utterance": "what else",
+            "intent": "generate.more"
+          },
+          {
+            "domain": "default",
+            "utterance": "continue",
+            "intent": "generate.more"
+          },
+          {
+            "domain": "default",
+            "utterance": "go on",
+            "intent": "generate.more"
+          },
+          {
+            "domain": "default",
+            "utterance": "elaborate",
+            "intent": "generate.more"
+          },
+          {
+            "domain": "default",
+            "utterance": "tell me about a project",
+            "intent": "project.detail"
+          },
+          {
+            "domain": "default",
+            "utterance": "what projects have you done",
+            "intent": "project.list"
+          },
+          {
+            "domain": "default",
+            "utterance": "explain your skills",
+            "intent": "skill.detail"
+          },
+          {
+            "domain": "default",
+            "utterance": "describe your experience",
+            "intent": "experience.detail"
+          },
+          {
+            "domain": "default",
+            "utterance": "education background",
+            "intent": "education.detail"
+          },
+          {
+            "domain": "default",
+            "utterance": "what can you do",
+            "intent": "qna.what_can_you_do"
+          },
+          {
+            "domain": "default",
+            "utterance": "projects",
+            "intent": "qna.projects"
+          },
+          {
+            "domain": "default",
+            "utterance": "skills",
+            "intent": "qna.skills"
+          },
+          {
+            "domain": "default",
+            "utterance": "experience",
+            "intent": "qna.experience"
+          },
+          {
+            "domain": "default",
+            "utterance": "education",
+            "intent": "qna.education"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Library Management System use React.js, Node.js, Express, MongoDB?",
+            "intent": "insight.project-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "What skills did Dev use at Sparks to Ideas?",
+            "intent": "insight.experience-skill"
+          },
+          {
+            "domain": "default",
+            "utterance": "How did Dev's education prepare him for technical work?",
+            "intent": "insight.education-skill"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "en",
+              "tag": "nlu-en",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "hello": 1,
+              "hi": 1,
+              "there": 1,
+              "good": 1,
+              "morn": 1,
+              "hey": 1,
+              "greet": 1,
+              "what": 1,
+              "is": 1,
+              "up": 1,
+              "your": 1,
+              "name": 1,
+              "who": 1,
+              "are": 1,
+              "you": 1,
+              "identifi": 1,
+              "yourself": 1,
+              "a": 1,
+              "human": 1,
+              "tell": 1,
+              "me": 1,
+              "more": 1,
+              "els": 1,
+              "continu": 1,
+              "go": 1,
+              "on": 1,
+              "elabor": 1,
+              "about": 1,
+              "project": 1,
+              "have": 1,
+              "done": 1,
+              "explain": 1,
+              "skill": 1,
+              "describ": 1,
+              "experi": 1,
+              "educ": 1,
+              "background": 1,
+              "can": 1,
+              "do": 1,
+              "how": 1,
+              "did": 1,
+              "smart": 1,
+              "door": 1,
+              "lock": 1,
+              "system": 1,
+              "use": 1,
+              "python": 1,
+              "raspberri": 1,
+              "pi": 1,
+              "opencv": 1,
+              "iot": 1,
+              "sensor": 1,
+              "librari": 1,
+              "manag": 1,
+              "react": 1,
+              "js": 1,
+              "node": 1,
+              "express": 1,
+              "mongodb": 1,
+              "dev": 1,
+              "at": 1,
+              "spark": 1,
+              "to": 1,
+              "idea": 1,
+              "prepar": 1,
+              "him": 1,
+              "for": 1,
+              "technic": 1,
+              "work": 1
+            },
+            "intents": {
+              "greeting": 1,
+              "bot.name": 1,
+              "generate.more": 1,
+              "project.detail": 1,
+              "project.list": 1,
+              "skill.detail": 1,
+              "experience.detail": 1,
+              "education.detail": 1,
+              "qna.what_can_you_do": 1,
+              "qna.projects": 1,
+              "qna.skills": 1,
+              "qna.experience": 1,
+              "qna.education": 1,
+              "insight.project-skill": 1,
+              "insight.experience-skill": 1,
+              "insight.education-skill": 1
+            },
+            "intentFeatures": {
+              "greeting": {
+                "hello": 1,
+                "hi": 1,
+                "there": 1,
+                "good": 1,
+                "morn": 1,
+                "hey": 1,
+                "greet": 1,
+                "what": 1,
+                "is": 1,
+                "up": 1
+              },
+              "bot.name": {
+                "what": 1,
+                "is": 1,
+                "your": 1,
+                "name": 1,
+                "who": 1,
+                "are": 1,
+                "you": 1,
+                "identifi": 1,
+                "yourself": 1,
+                "a": 1,
+                "human": 1
+              },
+              "generate.more": {
+                "tell": 1,
+                "me": 1,
+                "more": 1,
+                "what": 1,
+                "els": 1,
+                "continu": 1,
+                "go": 1,
+                "on": 1,
+                "elabor": 1
+              },
+              "project.detail": {
+                "tell": 1,
+                "me": 1,
+                "about": 1,
+                "a": 1,
+                "project": 1
+              },
+              "project.list": {
+                "what": 1,
+                "project": 1,
+                "have": 1,
+                "you": 1,
+                "done": 1
+              },
+              "skill.detail": {
+                "explain": 1,
+                "your": 1,
+                "skill": 1
+              },
+              "experience.detail": {
+                "describ": 1,
+                "your": 1,
+                "experi": 1
+              },
+              "education.detail": {
+                "educ": 1,
+                "background": 1
+              },
+              "qna.what_can_you_do": {
+                "what": 1,
+                "can": 1,
+                "you": 1,
+                "do": 1
+              },
+              "qna.projects": {
+                "project": 1
+              },
+              "qna.skills": {
+                "skill": 1
+              },
+              "qna.experience": {
+                "experi": 1
+              },
+              "qna.education": {
+                "educ": 1
+              },
+              "insight.project-skill": {
+                "how": 1,
+                "did": 1,
+                "smart": 1,
+                "door": 1,
+                "lock": 1,
+                "system": 1,
+                "use": 1,
+                "python": 1,
+                "raspberri": 1,
+                "pi": 1,
+                "opencv": 1,
+                "iot": 1,
+                "sensor": 1,
+                "librari": 1,
+                "manag": 1,
+                "react": 1,
+                "js": 1,
+                "node": 1,
+                "express": 1,
+                "mongodb": 1
+              },
+              "insight.experience-skill": {
+                "what": 1,
+                "skill": 1,
+                "did": 1,
+                "dev": 1,
+                "use": 1,
+                "at": 1,
+                "spark": 1,
+                "to": 1,
+                "idea": 1
+              },
+              "insight.education-skill": {
+                "how": 1,
+                "did": 1,
+                "dev": 1,
+                "is": 1,
+                "educ": 1,
+                "prepar": 1,
+                "him": 1,
+                "for": 1,
+                "technic": 1,
+                "work": 1
+              }
+            },
+            "featuresToIntent": {
+              "hello": [
+                "greeting"
+              ],
+              "hi": [
+                "greeting"
+              ],
+              "there": [
+                "greeting"
+              ],
+              "good": [
+                "greeting"
+              ],
+              "morn": [
+                "greeting"
+              ],
+              "hey": [
+                "greeting"
+              ],
+              "greet": [
+                "greeting"
+              ],
+              "what": [
+                "greeting",
+                "bot.name",
+                "generate.more",
+                "project.list",
+                "qna.what_can_you_do",
+                "insight.experience-skill"
+              ],
+              "is": [
+                "greeting",
+                "bot.name",
+                "insight.education-skill"
+              ],
+              "up": [
+                "greeting"
+              ],
+              "your": [
+                "bot.name",
+                "skill.detail",
+                "experience.detail"
+              ],
+              "name": [
+                "bot.name"
+              ],
+              "who": [
+                "bot.name"
+              ],
+              "are": [
+                "bot.name"
+              ],
+              "you": [
+                "bot.name",
+                "project.list",
+                "qna.what_can_you_do"
+              ],
+              "identifi": [
+                "bot.name"
+              ],
+              "yourself": [
+                "bot.name"
+              ],
+              "a": [
+                "bot.name",
+                "project.detail"
+              ],
+              "human": [
+                "bot.name"
+              ],
+              "tell": [
+                "generate.more",
+                "project.detail"
+              ],
+              "me": [
+                "generate.more",
+                "project.detail"
+              ],
+              "more": [
+                "generate.more"
+              ],
+              "els": [
+                "generate.more"
+              ],
+              "continu": [
+                "generate.more"
+              ],
+              "go": [
+                "generate.more"
+              ],
+              "on": [
+                "generate.more"
+              ],
+              "elabor": [
+                "generate.more"
+              ],
+              "about": [
+                "project.detail"
+              ],
+              "project": [
+                "project.detail",
+                "project.list",
+                "qna.projects"
+              ],
+              "have": [
+                "project.list"
+              ],
+              "done": [
+                "project.list"
+              ],
+              "explain": [
+                "skill.detail"
+              ],
+              "skill": [
+                "skill.detail",
+                "qna.skills",
+                "insight.experience-skill"
+              ],
+              "describ": [
+                "experience.detail"
+              ],
+              "experi": [
+                "experience.detail",
+                "qna.experience"
+              ],
+              "educ": [
+                "education.detail",
+                "qna.education",
+                "insight.education-skill"
+              ],
+              "background": [
+                "education.detail"
+              ],
+              "can": [
+                "qna.what_can_you_do"
+              ],
+              "do": [
+                "qna.what_can_you_do"
+              ],
+              "how": [
+                "insight.project-skill",
+                "insight.education-skill"
+              ],
+              "did": [
+                "insight.project-skill",
+                "insight.experience-skill",
+                "insight.education-skill"
+              ],
+              "smart": [
+                "insight.project-skill"
+              ],
+              "door": [
+                "insight.project-skill"
+              ],
+              "lock": [
+                "insight.project-skill"
+              ],
+              "system": [
+                "insight.project-skill"
+              ],
+              "use": [
+                "insight.project-skill",
+                "insight.experience-skill"
+              ],
+              "python": [
+                "insight.project-skill"
+              ],
+              "raspberri": [
+                "insight.project-skill"
+              ],
+              "pi": [
+                "insight.project-skill"
+              ],
+              "opencv": [
+                "insight.project-skill"
+              ],
+              "iot": [
+                "insight.project-skill"
+              ],
+              "sensor": [
+                "insight.project-skill"
+              ],
+              "librari": [
+                "insight.project-skill"
+              ],
+              "manag": [
+                "insight.project-skill"
+              ],
+              "react": [
+                "insight.project-skill"
+              ],
+              "js": [
+                "insight.project-skill"
+              ],
+              "node": [
+                "insight.project-skill"
+              ],
+              "express": [
+                "insight.project-skill"
+              ],
+              "mongodb": [
+                "insight.project-skill"
+              ],
+              "dev": [
+                "insight.experience-skill",
+                "insight.education-skill"
+              ],
+              "at": [
+                "insight.experience-skill"
+              ],
+              "spark": [
+                "insight.experience-skill"
+              ],
+              "to": [
+                "insight.experience-skill"
+              ],
+              "idea": [
+                "insight.experience-skill"
+              ],
+              "prepar": [
+                "insight.education-skill"
+              ],
+              "him": [
+                "insight.education-skill"
+              ],
+              "for": [
+                "insight.education-skill"
+              ],
+              "technic": [
+                "insight.education-skill"
+              ],
+              "work": [
+                "insight.education-skill"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "en",
+                "tag": "nlu-en",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true
+              },
+              "features": [
+                "hello",
+                "hi",
+                "there",
+                "good",
+                "morn",
+                "hey",
+                "greet",
+                "what",
+                "is",
+                "up",
+                "your",
+                "name",
+                "who",
+                "are",
+                "you",
+                "identifi",
+                "yourself",
+                "a",
+                "human",
+                "tell",
+                "me",
+                "more",
+                "els",
+                "continu",
+                "go",
+                "on",
+                "elabor",
+                "about",
+                "project",
+                "have",
+                "done",
+                "explain",
+                "skill",
+                "describ",
+                "experi",
+                "educ",
+                "background",
+                "can",
+                "do",
+                "how",
+                "did",
+                "smart",
+                "door",
+                "lock",
+                "system",
+                "use",
+                "python",
+                "raspberri",
+                "pi",
+                "opencv",
+                "iot",
+                "sensor",
+                "librari",
+                "manag",
+                "react",
+                "js",
+                "node",
+                "express",
+                "mongodb",
+                "dev",
+                "at",
+                "spark",
+                "to",
+                "idea",
+                "prepar",
+                "him",
+                "for",
+                "technic",
+                "work"
+              ],
+              "intents": [
+                "greeting",
+                "bot.name",
+                "generate.more",
+                "project.detail",
+                "project.list",
+                "skill.detail",
+                "experience.detail",
+                "education.detail",
+                "qna.what_can_you_do",
+                "qna.projects",
+                "qna.skills",
+                "qna.experience",
+                "qna.education",
+                "insight.project-skill",
+                "insight.experience-skill",
+                "insight.education-skill"
+              ],
+              "perceptrons": [
+                [
+                  10.074954986572266,
+                  5.076496601104736,
+                  5.076496601104736,
+                  5.076576232910156,
+                  5.076576232910156,
+                  10.060415267944336,
+                  10.03854751586914,
+                  -0.6299747824668884,
+                  3.6220462322235107,
+                  7.139251708984375,
+                  -3.9737844467163086,
+                  -3.158700466156006,
+                  -0.8808826804161072,
+                  -1.3666175603866577,
+                  -2.3545329570770264,
+                  -2.1491315364837646,
+                  -2.1491315364837646,
+                  -0.7211428880691528,
+                  -0.4409298002719879,
+                  -1.5711432695388794,
+                  -1.5711432695388794,
+                  -1.3002095222473145,
+                  -3.509511709213257,
+                  -4.116634368896484,
+                  -2.097423791885376,
+                  -2.097423791885376,
+                  -4.105506420135498,
+                  -0.21035218238830566,
+                  -4.100345611572266,
+                  -0.317415714263916,
+                  -0.317415714263916,
+                  -0.3738371729850769,
+                  -4.089872360229492,
+                  -0.3528289496898651,
+                  -4.078091144561768,
+                  -4.083866596221924,
+                  -1.1992418766021729,
+                  -0.6096231341362,
+                  -0.6096231341362,
+                  -0.7582630515098572,
+                  -0.88144451379776,
+                  -0.17458461225032806,
+                  -0.17458461225032806,
+                  -0.17458461225032806,
+                  -0.3990585505962372,
+                  -0.5222402215003967,
+                  -0.17458461225032806,
+                  -0.17458461225032806,
+                  -0.17458461225032806,
+                  -0.17458461225032806,
+                  -0.17458461225032806,
+                  -0.17458461225032806,
+                  -0.22444386780261993,
+                  -0.22444386780261993,
+                  -0.22444386780261993,
+                  -0.22444386780261993,
+                  -0.22444386780261993,
+                  -0.22444386780261993,
+                  -0.22444386780261993,
+                  -0.48137167096138,
+                  -0.09876101464033127,
+                  -0.09876101464033127,
+                  -0.09876101464033127,
+                  -0.09876101464033127,
+                  -0.3581902086734772,
+                  -0.3581902086734772,
+                  -0.3581902086734772,
+                  -0.3581902086734772,
+                  -0.3581902086734772,
+                  4.132017624765721
+                ],
+                [
+                  -0.6989940404891968,
+                  -0.4203587770462036,
+                  -0.4203587770462036,
+                  -0.41820836067199707,
+                  -0.41820836067199707,
+                  -0.6832975745201111,
+                  -0.676807701587677,
+                  -0.3098713457584381,
+                  3.2805230617523193,
+                  -3.583709955215454,
+                  3.436103343963623,
+                  7.229869365692139,
+                  4.084705829620361,
+                  6.327946662902832,
+                  3.2381532192230225,
+                  6.824532508850098,
+                  6.824532508850098,
+                  1.8432520627975464,
+                  2.243107557296753,
+                  -0.7639807462692261,
+                  -0.7639807462692261,
+                  -0.34218254685401917,
+                  -0.8040171265602112,
+                  -0.8758171200752258,
+                  -0.576355516910553,
+                  -0.576355516910553,
+                  -0.8439604640007019,
+                  -0.34391075372695923,
+                  -1.6980417966842651,
+                  -1.1743035316467285,
+                  -1.1743035316467285,
+                  -1.8878916501998901,
+                  -2.177380084991455,
+                  -1.9068971872329712,
+                  -2.158235788345337,
+                  -0.9455114603042603,
+                  -0.2767534852027893,
+                  -1.840349793434143,
+                  -1.840349793434143,
+                  -0.5232709646224976,
+                  -0.5620018243789673,
+                  -0.06062759459018707,
+                  -0.06062759459018707,
+                  -0.06062759459018707,
+                  -0.14296649396419525,
+                  -0.17860308289527893,
+                  -0.06062759459018707,
+                  -0.06062759459018707,
+                  -0.06062759459018707,
+                  -0.06062759459018707,
+                  -0.06062759459018707,
+                  -0.06062759459018707,
+                  -0.05834221467375755,
+                  -0.05834221467375755,
+                  -0.05834221467375755,
+                  -0.05834221467375755,
+                  -0.05834221467375755,
+                  -0.05834221467375755,
+                  -0.05834221467375755,
+                  -0.4017165005207062,
+                  -0.022697048261761665,
+                  -0.022697048261761665,
+                  -0.022697048261761665,
+                  -0.022697048261761665,
+                  -0.36298561096191406,
+                  -0.36298561096191406,
+                  -0.36298561096191406,
+                  -0.36298561096191406,
+                  -0.36298561096191406,
+                  0.6330720898140075
+                ],
+                [
+                  -3.2913239002227783,
+                  -1.6645385026931763,
+                  -1.6645385026931763,
+                  -1.6645100116729736,
+                  -1.6645100116729736,
+                  -3.278301954269409,
+                  -3.268256187438965,
+                  2.5564441680908203,
+                  -3.3155643939971924,
+                  -2.559260368347168,
+                  -1.9187614917755127,
+                  -0.6936661005020142,
+                  -0.32493361830711365,
+                  -0.36505430936813354,
+                  -2.6321489810943604,
+                  -1.6595959663391113,
+                  -1.6595959663391113,
+                  -2.5924758911132812,
+                  -0.026701055467128754,
+                  2.803375720977783,
+                  2.803375720977783,
+                  5.357315540313721,
+                  8.399910926818848,
+                  10.871092796325684,
+                  5.479215621948242,
+                  5.479215621948242,
+                  10.843222618103027,
+                  -2.5523552894592285,
+                  -3.903907060623169,
+                  -0.532789945602417,
+                  -0.532789945602417,
+                  -0.5227437615394592,
+                  -3.3206748962402344,
+                  -0.5923207998275757,
+                  -3.3135411739349365,
+                  -3.3168885707855225,
+                  -1.1338356733322144,
+                  -1.6357107162475586,
+                  -1.6357107162475586,
+                  -0.40998539328575134,
+                  -0.7318947315216064,
+                  -0.14439088106155396,
+                  -0.14439088106155396,
+                  -0.14439088106155396,
+                  -0.34854763746261597,
+                  -0.6706945300102234,
+                  -0.14439088106155396,
+                  -0.14439088106155396,
+                  -0.14439088106155396,
+                  -0.14439088106155396,
+                  -0.14439088106155396,
+                  -0.14439088106155396,
+                  -0.17586256563663483,
+                  -0.17586256563663483,
+                  -0.17586256563663483,
+                  -0.17586256563663483,
+                  -0.17586256563663483,
+                  -0.17586256563663483,
+                  -0.17586256563663483,
+                  -0.38083574175834656,
+                  -0.319565087556839,
+                  -0.319565087556839,
+                  -0.319565087556839,
+                  -0.319565087556839,
+                  -0.05135754868388176,
+                  -0.05135754868388176,
+                  -0.05135754868388176,
+                  -0.05135754868388176,
+                  -0.05135754868388176,
+                  3.330935967825517
+                ],
+                [
+                  -0.05058792605996132,
+                  -0.04628005996346474,
+                  -0.04628005996346474,
+                  -0.04453262314200401,
+                  -0.04453262314200401,
+                  -0.04495955631136894,
+                  -0.04316744580864906,
+                  -0.434739351272583,
+                  -0.031259436160326004,
+                  -0.00839719083160162,
+                  -0.13328897953033447,
+                  -0.0013587066205218434,
+                  -0.006832672283053398,
+                  -0.8118085861206055,
+                  -1.266356348991394,
+                  -0.038658786565065384,
+                  -0.038658786565065384,
+                  4.425238609313965,
+                  -0.7986140251159668,
+                  2.2633872032165527,
+                  2.2633872032165527,
+                  -2.9592175483703613,
+                  0,
+                  -0.012446330860257149,
+                  -0.011647501960396767,
+                  -0.011647501960396767,
+                  -0.011462456546723843,
+                  5.222707748413086,
+                  1.6211512088775635,
+                  -0.37285488843917847,
+                  -0.37285488843917847,
+                  -0.04889808967709541,
+                  -0.1302630603313446,
+                  -0.057621173560619354,
+                  -0.12171803414821625,
+                  -0.14763639867305756,
+                  -0.06524761766195297,
+                  -0.016475049778819084,
+                  -0.016475049778819084,
+                  -0.0703897774219513,
+                  -0.0802750512957573,
+                  -0.015652138739824295,
+                  -0.015652138739824295,
+                  -0.015652138739824295,
+                  -0.04640468582510948,
+                  -0.05812722444534302,
+                  -0.015652138739824295,
+                  -0.015652138739824295,
+                  -0.015652138739824295,
+                  -0.015652138739824295,
+                  -0.015652138739824295,
+                  -0.015652138739824295,
+                  -0.019651679322123528,
+                  -0.019651679322123528,
+                  -0.019651679322123528,
+                  -0.019651679322123528,
+                  -0.019651679322123528,
+                  -0.019651679322123528,
+                  -0.019651679322123528,
+                  -0.02274276502430439,
+                  -0.004824505653232336,
+                  -0.004824505653232336,
+                  -0.004824505653232336,
+                  -0.004824505653232336,
+                  -0.014486785978078842,
+                  -0.014486785978078842,
+                  -0.014486785978078842,
+                  -0.014486785978078842,
+                  -0.014486785978078842,
+                  -1.5462678987945428
+                ],
+                [
+                  -0.023809518665075302,
+                  -0.022325709462165833,
+                  -0.022325709462165833,
+                  -0.021433591842651367,
+                  -0.021433591842651367,
+                  -0.02104482240974903,
+                  -0.020183423534035683,
+                  1.9417939186096191,
+                  -0.5880100727081299,
+                  -0.3401392698287964,
+                  -0.32638832926750183,
+                  -0.2106037139892578,
+                  -0.4982376992702484,
+                  -0.7716062068939209,
+                  2.541121482849121,
+                  -0.0036200452595949173,
+                  -0.0036200452595949173,
+                  -0.6752142906188965,
+                  -0.2478155940771103,
+                  -0.4001966714859009,
+                  -0.4001966714859009,
+                  -0.0014241371536627412,
+                  -0.6043648719787598,
+                  -0.000008186078957805876,
+                  -0.000007842949344194494,
+                  -0.000007842949344194494,
+                  -0.0000075142033892916515,
+                  -0.39746373891830444,
+                  1.4486387968063354,
+                  4.8623857498168945,
+                  4.8623857498168945,
+                  -0.03996794670820236,
+                  -0.25359946489334106,
+                  -0.04263817146420479,
+                  -0.08769486099481583,
+                  -0.10910274088382721,
+                  -0.0612604022026062,
+                  -1.5432279109954834,
+                  -1.5432279109954834,
+                  -0.04437471553683281,
+                  -0.22018064558506012,
+                  -0.014650608412921429,
+                  -0.014650608412921429,
+                  -0.014650608412921429,
+                  -0.03337617591023445,
+                  -0.21449589729309082,
+                  -0.014650608412921429,
+                  -0.014650608412921429,
+                  -0.014650608412921429,
+                  -0.014650608412921429,
+                  -0.014650608412921429,
+                  -0.014650608412921429,
+                  -0.011590275913476944,
+                  -0.011590275913476944,
+                  -0.011590275913476944,
+                  -0.011590275913476944,
+                  -0.011590275913476944,
+                  -0.011590275913476944,
+                  -0.011590275913476944,
+                  -0.16985566914081573,
+                  -0.1644037663936615,
+                  -0.1644037663936615,
+                  -0.1644037663936615,
+                  -0.1644037663936615,
+                  -0.002233377657830715,
+                  -0.002233377657830715,
+                  -0.002233377657830715,
+                  -0.002233377657830715,
+                  -0.002233377657830715,
+                  -1.3926710856507107
+                ],
+                [
+                  -0.08625012636184692,
+                  -0.07404671609401703,
+                  -0.07404671609401703,
+                  -0.07167167216539383,
+                  -0.07167167216539383,
+                  -0.07769656926393509,
+                  -0.07481062412261963,
+                  -1.5506269931793213,
+                  -1.1915085315704346,
+                  -0.0016916568856686354,
+                  5.307308197021484,
+                  -1.182073712348938,
+                  -0.023329319432377815,
+                  -0.04521830007433891,
+                  -0.1033732071518898,
+                  -0.04256221279501915,
+                  -0.04256221279501915,
+                  -0.027799248695373535,
+                  -0.015393056906759739,
+                  -0.04623987525701523,
+                  -0.04623987525701523,
+                  -0.03354381024837494,
+                  0,
+                  -0.048949066549539566,
+                  -0.04197833687067032,
+                  -0.04197833687067032,
+                  -0.045596323907375336,
+                  -0.008170723915100098,
+                  -0.1574997901916504,
+                  0,
+                  0,
+                  8.418636322021484,
+                  1.700312614440918,
+                  -1.9401557445526123,
+                  -1.9913125038146973,
+                  -0.1972873955965042,
+                  -0.10151109844446182,
+                  -0.0408964529633522,
+                  -0.0408964529633522,
+                  -0.05159538984298706,
+                  -0.3650698661804199,
+                  -0.016800224781036377,
+                  -0.016800224781036377,
+                  -0.016800224781036377,
+                  -0.03828035667538643,
+                  -0.358855664730072,
+                  -0.016800224781036377,
+                  -0.016800224781036377,
+                  -0.016800224781036377,
+                  -0.016800224781036377,
+                  -0.016800224781036377,
+                  -0.016800224781036377,
+                  -0.013290826231241226,
+                  -0.013290826231241226,
+                  -0.013290826231241226,
+                  -0.013290826231241226,
+                  -0.013290826231241226,
+                  -0.013290826231241226,
+                  -0.013290826231241226,
+                  -0.3070189356803894,
+                  -0.300808846950531,
+                  -0.300808846950531,
+                  -0.300808846950531,
+                  -0.300808846950531,
+                  -0.0032302329782396555,
+                  -0.0032302329782396555,
+                  -0.0032302329782396555,
+                  -0.0032302329782396555,
+                  -0.0032302329782396555,
+                  -1.3578814040254505
+                ],
+                [
+                  -0.10783889144659042,
+                  -0.08381891995668411,
+                  -0.08381891995668411,
+                  -0.08084748685359955,
+                  -0.08084748685359955,
+                  -0.09719552844762802,
+                  -0.0936000645160675,
+                  -1.3589402437210083,
+                  -1.264402985572815,
+                  -0.01966814696788788,
+                  5.331026077270508,
+                  -1.214934229850769,
+                  -0.031010745093226433,
+                  -0.05690145120024681,
+                  -0.13932672142982483,
+                  -0.055849358439445496,
+                  -0.055849358439445496,
+                  -0.03537614643573761,
+                  -0.01692565158009529,
+                  -0.061670370399951935,
+                  -0.061670370399951935,
+                  -0.043542440980672836,
+                  -0.004770162981003523,
+                  -0.06306460499763489,
+                  -0.0493563637137413,
+                  -0.0493563637137413,
+                  -0.05874345824122429,
+                  -0.011700876988470554,
+                  -0.1793137639760971,
+                  0,
+                  0,
+                  -1.8459936380386353,
+                  -1.9779423475265503,
+                  8.387500762939453,
+                  1.8127596378326416,
+                  -0.23261137306690216,
+                  -0.11319991201162338,
+                  -0.06654247641563416,
+                  -0.06654247641563416,
+                  -0.08170786499977112,
+                  -0.10874561965465546,
+                  -0.01897299848496914,
+                  -0.01897299848496914,
+                  -0.01897299848496914,
+                  -0.0555725134909153,
+                  -0.08548330515623093,
+                  -0.01897299848496914,
+                  -0.01897299848496914,
+                  -0.01897299848496914,
+                  -0.01897299848496914,
+                  -0.01897299848496914,
+                  -0.01897299848496914,
+                  -0.023145319893956184,
+                  -0.023145319893956184,
+                  -0.023145319893956184,
+                  -0.023145319893956184,
+                  -0.023145319893956184,
+                  -0.023145319893956184,
+                  -0.023145319893956184,
+                  -0.04033888503909111,
+                  -0.018412141129374504,
+                  -0.018412141129374504,
+                  -0.018412141129374504,
+                  -0.018412141129374504,
+                  -0.015117674134671688,
+                  -0.015117674134671688,
+                  -0.015117674134671688,
+                  -0.015117674134671688,
+                  -0.015117674134671688,
+                  -1.4679372012192655
+                ],
+                [
+                  -0.2167913168668747,
+                  -0.15523192286491394,
+                  -0.15523192286491394,
+                  -0.1515434831380844,
+                  -0.1515434831380844,
+                  -0.20616210997104645,
+                  -0.2005828469991684,
+                  -0.23673419654369354,
+                  -0.43682900071144104,
+                  -0.006126868538558483,
+                  -0.07572475075721741,
+                  -0.0016179705271497369,
+                  -0.05569160357117653,
+                  -0.09429687261581421,
+                  -0.22721824049949646,
+                  -0.13723714649677277,
+                  -0.13723714649677277,
+                  -0.051909513771533966,
+                  -0.03151630982756615,
+                  -0.1151210218667984,
+                  -0.1151210218667984,
+                  -0.09483274817466736,
+                  -0.06883922964334488,
+                  -0.1849014312028885,
+                  -0.12971290946006775,
+                  -0.12971290946006775,
+                  -0.17948557436466217,
+                  -0.013228574767708778,
+                  -0.3563474416732788,
+                  0,
+                  0,
+                  -0.031246449798345566,
+                  -0.36316004395484924,
+                  -0.03372648358345032,
+                  -0.35138583183288574,
+                  1.7701890468597412,
+                  12.453126907348633,
+                  -0.12163422256708145,
+                  -0.12163422256708145,
+                  -0.4915872812271118,
+                  -0.5145957469940186,
+                  -0.019301801919937134,
+                  -0.019301801919937134,
+                  -0.019301801919937134,
+                  -0.04398190602660179,
+                  -0.06770778447389603,
+                  -0.019301801919937134,
+                  -0.019301801919937134,
+                  -0.019301801919937134,
+                  -0.019301801919937134,
+                  -0.019301801919937134,
+                  -0.019301801919937134,
+                  -0.01526822242885828,
+                  -0.01526822242885828,
+                  -0.01526822242885828,
+                  -0.01526822242885828,
+                  -0.01526822242885828,
+                  -0.01526822242885828,
+                  -0.01526822242885828,
+                  -0.44786733388900757,
+                  -0.011926908046007156,
+                  -0.011926908046007156,
+                  -0.011926908046007156,
+                  -0.011926908046007156,
+                  -0.4248589277267456,
+                  -0.4248589277267456,
+                  -0.4248589277267456,
+                  -0.4248589277267456,
+                  -0.4248589277267456,
+                  -0.7260567204066264
+                ],
+                [
+                  -0.07411414384841919,
+                  -0.06543666124343872,
+                  -0.06543666124343872,
+                  -0.06317397952079773,
+                  -0.06317397952079773,
+                  -0.06637223064899445,
+                  -0.0638267919421196,
+                  1.5791326761245728,
+                  -0.9370324015617371,
+                  -0.5338550806045532,
+                  -0.3559255301952362,
+                  -0.3559255301952362,
+                  -0.8580271601676941,
+                  -1.3782055377960205,
+                  2.5786643028259277,
+                  -0.02128729224205017,
+                  -0.02128729224205017,
+                  -0.49935176968574524,
+                  -0.49935176968574524,
+                  -0.009643656201660633,
+                  -0.009643656201660633,
+                  -0.009643656201660633,
+                  -1.2360565662384033,
+                  -0.004497897811233997,
+                  -0.0028734831139445305,
+                  -0.0028734831139445305,
+                  -0.004144294653087854,
+                  0,
+                  -1.348650574684143,
+                  -1.2690134048461914,
+                  -1.2690134048461914,
+                  0,
+                  -0.2766295373439789,
+                  0,
+                  -0.09119489789009094,
+                  -0.10120084881782532,
+                  0,
+                  5.234936714172363,
+                  5.234936714172363,
+                  -0.06842287629842758,
+                  -0.2958495020866394,
+                  -0.02076374739408493,
+                  -0.02076374739408493,
+                  -0.02076374739408493,
+                  -0.047364264726638794,
+                  -0.27948254346847534,
+                  -0.02076374739408493,
+                  -0.02076374739408493,
+                  -0.02076374739408493,
+                  -0.02076374739408493,
+                  -0.02076374739408493,
+                  -0.02076374739408493,
+                  -0.01648181490600109,
+                  -0.01648181490600109,
+                  -0.01648181490600109,
+                  -0.01648181490600109,
+                  -0.01648181490600109,
+                  -0.01648181490600109,
+                  -0.01648181490600109,
+                  -0.22403573989868164,
+                  -0.20769090950489044,
+                  -0.20769090950489044,
+                  -0.20769090950489044,
+                  -0.20769090950489044,
+                  -0.008466076105833054,
+                  -0.008466076105833054,
+                  -0.008466076105833054,
+                  -0.008466076105833054,
+                  -0.008466076105833054,
+                  -0.34229743330562573
+                ],
+                [
+                  -0.984541654586792,
+                  -0.5098705291748047,
+                  -0.5098705291748047,
+                  -0.5094358921051025,
+                  -0.5094358921051025,
+                  -0.9764302372932434,
+                  -0.9713531136512756,
+                  -3.427743911743164,
+                  -0.12040235102176666,
+                  -0.04653553292155266,
+                  -0.08250713348388672,
+                  -0.025623198598623276,
+                  -0.06662727147340775,
+                  -0.10852991044521332,
+                  -3.358083486557007,
+                  -0.5055733919143677,
+                  -0.5055733919143677,
+                  -3.314136028289795,
+                  -0.027216386049985886,
+                  -3.3365914821624756,
+                  -3.3365914821624756,
+                  -0.04893258213996887,
+                  -0.04501945152878761,
+                  -0.9640766978263855,
+                  -0.5032007098197937,
+                  -0.5032007098197937,
+                  -0.9567046165466309,
+                  -3.272679090499878,
+                  12.403336524963379,
+                  -3.2399942874908447,
+                  -3.2399942874908447,
+                  -0.015534676611423492,
+                  -1.002419114112854,
+                  -0.025360390543937683,
+                  -0.9978139400482178,
+                  -0.9941961765289307,
+                  -0.06545142829418182,
+                  0,
+                  0,
+                  -0.14685387909412384,
+                  -0.1827467381954193,
+                  -0.049465589225292206,
+                  -0.049465589225292206,
+                  -0.049465589225292206,
+                  -0.11309054493904114,
+                  -0.14898337423801422,
+                  -0.049465589225292206,
+                  -0.049465589225292206,
+                  -0.049465589225292206,
+                  -0.049465589225292206,
+                  -0.049465589225292206,
+                  -0.049465589225292206,
+                  -0.0635419636964798,
+                  -0.0635419636964798,
+                  -0.0635419636964798,
+                  -0.0635419636964798,
+                  -0.0635419636964798,
+                  -0.0635419636964798,
+                  -0.0635419636964798,
+                  -0.06384973227977753,
+                  -0.026013638824224472,
+                  -0.026013638824224472,
+                  -0.026013638824224472,
+                  -0.026013638824224472,
+                  -0.02795657142996788,
+                  -0.02795657142996788,
+                  -0.02795657142996788,
+                  -0.02795657142996788,
+                  -0.02795657142996788,
+                  1.036210308387167
+                ],
+                [
+                  -0.93924880027771,
+                  -0.48744887113571167,
+                  -0.48744887113571167,
+                  -0.48696649074554443,
+                  -0.48696649074554443,
+                  -0.9312574863433838,
+                  -0.9263452887535095,
+                  -1.6686170101165771,
+                  -0.05002804473042488,
+                  -0.02189566008746624,
+                  -6.361385822296143,
+                  -0.005063938908278942,
+                  -0.25373977422714233,
+                  -0.36153122782707214,
+                  -0.36153122782707214,
+                  -0.48280060291290283,
+                  -0.48280060291290283,
+                  -0.14958614110946655,
+                  -0.10714351385831833,
+                  -0.3383422791957855,
+                  -0.3383422791957855,
+                  -0.29589956998825073,
+                  -0.011947189457714558,
+                  -0.9171904921531677,
+                  -0.4799348711967468,
+                  -0.4799348711967468,
+                  -0.9099560976028442,
+                  -0.0370224267244339,
+                  -0.8689162731170654,
+                  0,
+                  0,
+                  -6.3441243171691895,
+                  12.175612449645996,
+                  -0.003867154475301504,
+                  -0.959065318107605,
+                  -0.9556790590286255,
+                  -0.05381065979599953,
+                  0,
+                  0,
+                  -0.07721337676048279,
+                  -1.7144516706466675,
+                  -0.023277554661035538,
+                  -0.023277554661035538,
+                  -0.023277554661035538,
+                  -0.0531076155602932,
+                  -1.6952344179153442,
+                  -0.023277554661035538,
+                  -0.023277554661035538,
+                  -0.023277554661035538,
+                  -0.023277554661035538,
+                  -0.023277554661035538,
+                  -0.023277554661035538,
+                  -0.018478011712431908,
+                  -0.018478011712431908,
+                  -0.018478011712431908,
+                  -0.018478011712431908,
+                  -0.018478011712431908,
+                  -0.018478011712431908,
+                  -0.018478011712431908,
+                  -1.6338331699371338,
+                  -1.6146159172058105,
+                  -1.6146159172058105,
+                  -1.6146159172058105,
+                  -1.6146159172058105,
+                  -0.00995800644159317,
+                  -0.00995800644159317,
+                  -0.00995800644159317,
+                  -0.00995800644159317,
+                  -0.00995800644159317,
+                  0.994085468085637
+                ],
+                [
+                  -0.930300772190094,
+                  -0.4790896773338318,
+                  -0.4790896773338318,
+                  -0.4787549376487732,
+                  -0.4787549376487732,
+                  -0.923670768737793,
+                  -0.9194253087043762,
+                  -0.6005003452301025,
+                  -0.22174902260303497,
+                  -0.14024069905281067,
+                  -6.5097503662109375,
+                  -0.03700244799256325,
+                  -0.24576835334300995,
+                  -0.347808301448822,
+                  -0.365145206451416,
+                  -0.4754272997379303,
+                  -0.4754272997379303,
+                  -0.14635437726974487,
+                  -0.1015864759683609,
+                  -0.3335351347923279,
+                  -0.3335351347923279,
+                  -0.2887671887874603,
+                  -0.34958988428115845,
+                  -0.9101318120956421,
+                  -0.4727698564529419,
+                  -0.4727698564529419,
+                  -0.9038018584251404,
+                  -0.03429444506764412,
+                  -0.8643814325332642,
+                  -0.009592479094862938,
+                  -0.009592479094862938,
+                  -0.034269969910383224,
+                  -0.8592038750648499,
+                  -6.419336318969727,
+                  12.381425857543945,
+                  -0.9385560154914856,
+                  -0.05817807838320732,
+                  -0.0017210172954946756,
+                  -0.0017210172954946756,
+                  -0.14201337099075317,
+                  -0.18950000405311584,
+                  -0.04471539705991745,
+                  -0.04471539705991745,
+                  -0.04471539705991745,
+                  -0.10577757656574249,
+                  -0.153264120221138,
+                  -0.04471539705991745,
+                  -0.04471539705991745,
+                  -0.04471539705991745,
+                  -0.04471539705991745,
+                  -0.04471539705991745,
+                  -0.04471539705991745,
+                  -0.05442029610276222,
+                  -0.05442029610276222,
+                  -0.05442029610276222,
+                  -0.05442029610276222,
+                  -0.05442029610276222,
+                  -0.05442029610276222,
+                  -0.05442029610276222,
+                  -0.0786890760064125,
+                  -0.03971625864505768,
+                  -0.03971625864505768,
+                  -0.03971625864505768,
+                  -0.03971625864505768,
+                  -0.029917795211076736,
+                  -0.029917795211076736,
+                  -0.029917795211076736,
+                  -0.029917795211076736,
+                  -0.029917795211076736,
+                  0.9712686465222752
+                ],
+                [
+                  -0.8606842756271362,
+                  -0.4467509686946869,
+                  -0.4467509686946869,
+                  -0.446239709854126,
+                  -0.446239709854126,
+                  -0.8535563349723816,
+                  -0.8492593169212341,
+                  -0.4967914819717407,
+                  -1.3655112981796265,
+                  -0.023285184055566788,
+                  -0.24748243391513824,
+                  -0.012324624694883823,
+                  -0.22778946161270142,
+                  -0.3233720362186432,
+                  -0.34602412581443787,
+                  -0.4423540532588959,
+                  -0.4423540532588959,
+                  -0.13617347180843353,
+                  -0.0948292464017868,
+                  -0.31115177273750305,
+                  -0.31115177273750305,
+                  -0.2698074281215668,
+                  -0.3858526051044464,
+                  -0.8394650220870972,
+                  -0.4390539526939392,
+                  -0.4390539526939392,
+                  -0.8330532312393188,
+                  -0.03181401640176773,
+                  -0.7465581297874451,
+                  -0.016013089567422867,
+                  -0.016013089567422867,
+                  -0.10957461595535278,
+                  -0.7423393726348877,
+                  -0.11895353347063065,
+                  -0.7366555333137512,
+                  11.247946739196777,
+                  -10.796009063720703,
+                  -0.0014232209650799632,
+                  -0.0014232209650799632,
+                  -1.4061485528945923,
+                  -1.447230577468872,
+                  -0.025345146656036377,
+                  -0.025345146656036377,
+                  -0.025345146656036377,
+                  -0.05785699188709259,
+                  -0.11079301685094833,
+                  -0.025345146656036377,
+                  -0.025345146656036377,
+                  -0.025345146656036377,
+                  -0.025345146656036377,
+                  -0.025345146656036377,
+                  -0.025345146656036377,
+                  -0.020151665434241295,
+                  -0.020151665434241295,
+                  -0.020151665434241295,
+                  -0.020151665434241295,
+                  -0.020151665434241295,
+                  -0.020151665434241295,
+                  -0.020151665434241295,
+                  -1.3593883514404297,
+                  -0.030179016292095184,
+                  -0.030179016292095184,
+                  -0.030179016292095184,
+                  -0.030179016292095184,
+                  -1.31830632686615,
+                  -1.31830632686615,
+                  -1.31830632686615,
+                  -1.31830632686615,
+                  -1.31830632686615,
+                  0.9165156888825233
+                ],
+                [
+                  -0.06976551562547684,
+                  -0.05020317807793617,
+                  -0.05020317807793617,
+                  -0.04850660264492035,
+                  -0.04850660264492035,
+                  -0.06591780483722687,
+                  -0.0645999163389206,
+                  -0.4668578505516052,
+                  -0.419001966714859,
+                  0,
+                  -0.025517964735627174,
+                  0,
+                  -0.025736352428793907,
+                  -0.055804572999477386,
+                  -0.055804572999477386,
+                  -0.04226286709308624,
+                  -0.04226286709308624,
+                  -0.04081243649125099,
+                  -0.019560500979423523,
+                  -0.04937339946627617,
+                  -0.04937339946627617,
+                  -0.0288070160895586,
+                  0,
+                  -0.06222643703222275,
+                  -0.040586069226264954,
+                  -0.040586069226264954,
+                  -0.06200560927391052,
+                  -0.013655762188136578,
+                  -0.06308061629533768,
+                  0,
+                  0,
+                  0,
+                  -0.4668578505516052,
+                  -0.025517964735627174,
+                  -0.06716609746217728,
+                  -0.419001966714859,
+                  0,
+                  0,
+                  0,
+                  1.530471682548523,
+                  0.882987380027771,
+                  0.9179362058639526,
+                  0.9179362058639526,
+                  0.9179362058639526,
+                  2.0981428623199463,
+                  1.4506572484970093,
+                  0.9179362058639526,
+                  0.9179362058639526,
+                  0.9179362058639526,
+                  0.9179362058639526,
+                  0.9179362058639526,
+                  0.9179362058639526,
+                  1.1802036762237549,
+                  1.1802036762237549,
+                  1.1802036762237549,
+                  1.1802036762237549,
+                  1.1802036762237549,
+                  1.1802036762237549,
+                  1.1802036762237549,
+                  -1.0561615228652954,
+                  -0.4668578505516052,
+                  -0.4668578505516052,
+                  -0.4668578505516052,
+                  -0.4668578505516052,
+                  -0.419001966714859,
+                  -0.419001966714859,
+                  -0.419001966714859,
+                  -0.419001966714859,
+                  -0.419001966714859,
+                  0.06202930368300545
+                ],
+                [
+                  -0.015695590525865555,
+                  -0.015037691220641136,
+                  -0.015037691220641136,
+                  -0.014407369308173656,
+                  -0.014407369308173656,
+                  -0.013803467154502869,
+                  -0.01322487834841013,
+                  1.0935356616973877,
+                  -0.7086563110351562,
+                  -0.1326296478509903,
+                  -0.4558527171611786,
+                  -0.10351100564002991,
+                  -0.006966640241444111,
+                  -0.01626078225672245,
+                  -0.36116907000541687,
+                  -0.0066746254451572895,
+                  -0.0066746254451572895,
+                  -0.010445188730955124,
+                  -0.005810820963233709,
+                  -0.01095588132739067,
+                  -0.01095588132739067,
+                  -0.006151283159852028,
+                  -0.39780479669570923,
+                  -0.0028292732313275337,
+                  -0.0027106809429824352,
+                  -0.0027106809429824352,
+                  -0.002597059588879347,
+                  -0.0017289569368585944,
+                  -0.15814684331417084,
+                  -0.1549050360918045,
+                  -0.1549050360918045,
+                  -0.31046929955482483,
+                  0.7797874212265015,
+                  0,
+                  0,
+                  -0.3190739154815674,
+                  0,
+                  -0.14410364627838135,
+                  -0.14410364627838135,
+                  -0.9849151372909546,
+                  1.1499992609024048,
+                  -0.23925121128559113,
+                  -0.23925121128559113,
+                  -0.23925121128559113,
+                  -0.5568162798881531,
+                  1.5749247074127197,
+                  -0.23925121128559113,
+                  -0.23925121128559113,
+                  -0.23925121128559113,
+                  -0.23925121128559113,
+                  -0.23925121128559113,
+                  -0.23925121128559113,
+                  -0.24687230587005615,
+                  -0.24687230587005615,
+                  -0.24687230587005615,
+                  -0.24687230587005615,
+                  -0.24687230587005615,
+                  -0.24687230587005615,
+                  -0.24687230587005615,
+                  1.7521682977676392,
+                  2.177093029022217,
+                  2.177093029022217,
+                  2.177093029022217,
+                  2.177093029022217,
+                  -0.3190739154815674,
+                  -0.3190739154815674,
+                  -0.3190739154815674,
+                  -0.3190739154815674,
+                  -0.3190739154815674,
+                  -0.7730713477350749
+                ],
+                [
+                  -0.012131577357649803,
+                  -0.011623067781329155,
+                  -0.011623067781329155,
+                  -0.011135873384773731,
+                  -0.011135873384773731,
+                  -0.010669100098311901,
+                  -0.010221892036497593,
+                  -0.820993959903717,
+                  1.4391014575958252,
+                  -0.22776241600513458,
+                  -0.16485227644443512,
+                  -0.1590661257505417,
+                  -0.00494001992046833,
+                  -0.01153046265244484,
+                  -0.01153046265244484,
+                  -0.004732953384518623,
+                  -0.004732953384518623,
+                  -0.009317507036030293,
+                  -0.004120432771742344,
+                  -0.009679637849330902,
+                  -0.009679637849330902,
+                  -0.004361853469163179,
+                  0,
+                  -0.004179021343588829,
+                  -0.004003852605819702,
+                  -0.004003852605819702,
+                  -0.0038360264152288437,
+                  -0.0031368578784167767,
+                  -0.0050951954908668995,
+                  0,
+                  0,
+                  0,
+                  -0.3495553731918335,
+                  -0.0013079751515761018,
+                  -0.002412187634035945,
+                  0.5459529161453247,
+                  -0.4303773045539856,
+                  0,
+                  0,
+                  1.2438273429870605,
+                  0.8373290300369263,
+                  -0.18841958045959473,
+                  -0.18841958045959473,
+                  -0.18841958045959473,
+                  -0.5445454716682434,
+                  -0.975203275680542,
+                  -0.18841958045959473,
+                  -0.18841958045959473,
+                  -0.18841958045959473,
+                  -0.18841958045959473,
+                  -0.18841958045959473,
+                  -0.18841958045959473,
+                  -0.2611861228942871,
+                  -0.2611861228942871,
+                  -0.2611861228942871,
+                  -0.2611861228942871,
+                  -0.2611861228942871,
+                  -0.2611861228942871,
+                  -0.2611861228942871,
+                  1.454711675643921,
+                  -0.3495553731918335,
+                  -0.3495553731918335,
+                  -0.3495553731918335,
+                  -0.3495553731918335,
+                  1.8612103462219238,
+                  1.8612103462219238,
+                  1.8612103462219238,
+                  1.8612103462219238,
+                  1.8612103462219238,
+                  -0.5412597006966225
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "en",
+        "hello"
+      ],
+      [
+        "en",
+        "hi there"
+      ],
+      [
+        "en",
+        "good morning"
+      ],
+      [
+        "en",
+        "hey"
+      ],
+      [
+        "en",
+        "greetings"
+      ],
+      [
+        "en",
+        "what's up"
+      ],
+      [
+        "en",
+        "what is your name"
+      ],
+      [
+        "en",
+        "who are you"
+      ],
+      [
+        "en",
+        "identify yourself"
+      ],
+      [
+        "en",
+        "are you a human"
+      ],
+      [
+        "en",
+        "tell me more"
+      ],
+      [
+        "en",
+        "what else"
+      ],
+      [
+        "en",
+        "continue"
+      ],
+      [
+        "en",
+        "go on"
+      ],
+      [
+        "en",
+        "elaborate"
+      ],
+      [
+        "en",
+        "tell me about a project"
+      ],
+      [
+        "en",
+        "what projects have you done"
+      ],
+      [
+        "en",
+        "explain your skills"
+      ],
+      [
+        "en",
+        "describe your experience"
+      ],
+      [
+        "en",
+        "education background"
+      ],
+      [
+        "en",
+        "what can you do"
+      ],
+      [
+        "en",
+        "projects"
+      ],
+      [
+        "en",
+        "skills"
+      ],
+      [
+        "en",
+        "experience"
+      ],
+      [
+        "en",
+        "education"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ],
+      [
+        "en",
+        "How did Smart Door Lock System use Python, Raspberry Pi, OpenCV, IoT Sensors?"
+      ],
+      [
+        "en",
+        "How did Library Management System use React.js, Node.js, Express, MongoDB?"
+      ],
+      [
+        "en",
+        "What skills did Dev use at Sparks to Ideas?"
+      ],
+      [
+        "en",
+        "How did Dev's education prepare him for technical work?"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {}
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {
+      "en": {
+        "greeting": [
+          {
+            "answer": "Hello! I'm Dev's AI assistant. What would you like to know about his IT background?"
+          },
+          {
+            "answer": "Hi there! Ready to explore Dev's skills in AI/ML and IoT?"
+          },
+          {
+            "answer": "Greetings! How can I help you learn about Dev's technical education and projects?"
+          }
+        ],
+        "bot.name": [
+          {
+            "answer": "I'm an AI assistant created to showcase Dev Shah's technical expertise"
+          },
+          {
+            "answer": "I'm your guide to Dev's professional journey - a digital portfolio assistant"
+          },
+          {
+            "answer": "Think of me as Dev's virtual representative. How can I assist?"
+          },
+          {
+            "answer": "I'm Dev's AI counterpart, here to answer questions about his career and skills"
+          }
+        ],
+        "qna.what_can_you_do": [
+          {
+            "answer": "I can tell you about Dev's education, skills, projects, and internship experience!"
+          },
+          {
+            "answer": "Ask me about Dev's technical expertise in AI/ML, IoT, or software development"
+          },
+          {
+            "answer": "I can share details about Dev's academic background and professional certifications"
+          }
+        ],
+        "qna.projects": [
+          {
+            "answer": "Dev has built practical projects including:\n      * Smart Door Lock System (IoT/Python/OpenCV)\n      * Library Management System (React.js/Node.js)\n      Which one would you like to know more about?"
+          },
+          {
+            "answer": "Notable projects in Dev's portfolio:\n      - IoT-based Security System with facial recognition\n      - Digital Library Management Solution\n      Ask about any that interest you!"
+          }
+        ],
+        "qna.skills": [
+          {
+            "answer": "Dev's technical skills include:\n      Programming: C, Java, Python\n      Domains: AI/ML, IoT, Computer Vision\n      Frontend: HTML, CSS, JavaScript, React\n      Would you like details on any specific area?"
+          },
+          {
+            "answer": "His technical expertise includes:\n      • Programming Languages: C, Java, Python\n      • Specializations: AI/ML, IoT, Computer Vision\n      • Frontend: React, JavaScript\n      • Backend: Node.js, Express"
+          }
+        ],
+        "qna.experience": [
+          {
+            "answer": "Dev completed an AI/ML internship at Sparks to Ideas where he learned numpy, pandas and practical AI implementation"
+          },
+          {
+            "answer": "During his internship, Dev gained industry insights and applied Python for AI projects"
+          }
+        ],
+        "qna.education": [
+          {
+            "answer": "Pursuing B.E. in IT from SVIT, Vasad with current CGPA of 8.65"
+          },
+          {
+            "answer": "Completed 12th Science with 88 PR and SSC with 79%"
+          }
+        ],
+        "insight.project-skill": [
+          {
+            "answer": "In the Smart Door Lock System project, Dev used Python, Raspberry Pi, OpenCV, IoT Sensors to IoT-based system with face and audio recognition for door security. The project resulted in Provides secure access through biometric recognition and auto-locking."
+          },
+          {
+            "answer": "In the Library Management System project, Dev used React.js, Node.js, Express, MongoDB to Web application for managing books digitally. The project resulted in Eliminates paperwork with intuitive digital management."
+          }
+        ],
+        "insight.experience-skill": [
+          {
+            "answer": "At Sparks to Ideas as a AI/ML Intern, Dev used C, AI/ML, Python to accomplish tasks like: Learned AI/ML functions in numpy, pandas and Applied Python for efficient implementation in projects."
+          }
+        ],
+        "insight.education-skill": [
+          {
+            "answer": "Dev's B.E. in Information Technology from SVIT, Vasad provided a strong foundation in C, Java, Python, AI/ML, IoT, which he applied in projects and professional experience."
+          }
+        ]
+      }
+    }
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {}
+}
